@@ -1,0 +1,11 @@
+firstName=Петър,lastName=Димитров,age=21,city=Пловдив,street=Марица,number=66
+firstName=Георги,lastName=Стоянов,age=23,city=София,street=Дунав,number=4
+firstName=Виктория,lastName=Стоименова,age=26,city=Плевeн,street=Иван Вазов,number=40
+firstName=Михаил,lastName=Спасов,age=20,city=Видин,street=Източен,number=17
+
+firstName=Здравко,lastName=Желязков,age=21,city=Перник,street=Винкел,number=2
+firstName=Владимир,lastName=Дуров,age=24,city=Варна,street=Приморска,number=25
+firstName=Стела,lastName=Иванова,age=23,city=Асеновград,street=Широка поляна,number=7
+
+firstName=Николай,lastName=Филипов,age=29,city=Пловдив,street=Пенчо Славейков,number=25
+firstName=Владимир,lastName=Захариве,age=24,city=Варна,street=Приморска,number=25
