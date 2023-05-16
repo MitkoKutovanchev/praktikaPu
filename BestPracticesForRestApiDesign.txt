@@ -1,0 +1,5 @@
+.../api/contacts -> GET
+.../api/contacts/{id} -> GET
+.../api/contacts -> POST
+.../api/contacts/{id} -> PUT
+.../api/contacts/{id} -> DELETE
