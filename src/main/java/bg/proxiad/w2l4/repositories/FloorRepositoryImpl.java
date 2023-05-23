@@ -6,7 +6,6 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 
 import bg.proxiad.w2l4.models.Floor;
-import bg.proxiad.w2l4.models.Floor;
 import jakarta.annotation.PostConstruct;
 
 @Repository
