@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <head>
+        <title>List All Furniture</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <p>
+        <span>List of furniture</span>
+        </p>
+      
+      	<div th:if="${ not#lists.isEmpty(allFurniture)}">
+          <table>
+            <tr>
+              <th>Price</th>
+              <th>Type</th>
+            </tr>
+            <tr th:each="furniture : ${allFurniture}">
+              <td th:text="${furniture.price}"></td>
+              <td th:text="${furniture.type}"></td>
+            </tr>
+          <table>
+        </div>
+    </body>
+</html>

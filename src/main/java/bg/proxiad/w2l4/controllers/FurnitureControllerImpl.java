@@ -32,7 +32,7 @@ public class FurnitureControllerImpl implements FurnitureController {
 	}
 	
 	@PostMapping
-	public Furniture createFurniture(@RequestBody FurnitureImputBean furniture) {
+	public Furniture createFurniture(@RequestBody FurnitureInputBean furniture) {
 		return furnitureService.createFurniture(furniture);
 	}
 	

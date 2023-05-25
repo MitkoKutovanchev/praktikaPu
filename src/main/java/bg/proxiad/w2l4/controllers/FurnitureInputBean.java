@@ -1,6 +1,6 @@
 package bg.proxiad.w2l4.controllers;
 
-public class FurnitureImputBean {
+public class FurnitureInputBean {
 	private Double price;
 	private String type;
 	public Double getPrice() {

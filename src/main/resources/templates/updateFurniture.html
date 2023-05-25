@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Update a furniture</title>
+</head>
+<body>
+<div align="center">
+    <h1>Furniture Update</h1>
+    <form action="#" th:action="@{/tl/furniture/{furnitureId}(furnitureId = ${furnitureId})}" method="post" th:object="${furniture}">
+        <label>Price:</label>
+        <input th:value="*{price}" type="text" name="price" /><br/>
+ 
+        <label>Type:</label>
+        <input th:value="*{type}" type="text" name="type" /><br/>
+ 
+        <button type="submit">Update</button>    
+    </form>
+</div>
+</body>
+</html>

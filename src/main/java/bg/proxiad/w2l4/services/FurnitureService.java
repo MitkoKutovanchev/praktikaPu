@@ -2,7 +2,7 @@ package bg.proxiad.w2l4.services;
 
 import java.util.List;
 
-import bg.proxiad.w2l4.controllers.FurnitureImputBean;
+import bg.proxiad.w2l4.controllers.FurnitureInputBean;
 import bg.proxiad.w2l4.models.Furniture;
 
 public interface FurnitureService {
@@ -11,7 +11,7 @@ public interface FurnitureService {
 
 	Furniture getFurniture(Long id);
 
-	Furniture createFurniture(FurnitureImputBean furniture);
+	Furniture createFurniture(FurnitureInputBean furniture);
 
 	Furniture updateFurniture(Furniture furniture);
 

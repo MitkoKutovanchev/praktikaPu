@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import bg.proxiad.w2l4.controllers.FurnitureImputBean;
+import bg.proxiad.w2l4.controllers.FurnitureInputBean;
 import bg.proxiad.w2l4.models.Furniture;
 import bg.proxiad.w2l4.repositories.FurnitureRepository;
 import jakarta.transaction.Transactional;
@@ -19,6 +19,8 @@ public class FurnitureServiceImpl implements FurnitureService {
 
 	@Override
 	public List<Furniture> listFurniture() {
+//		return (List<Furniture>) furnitureRepository.findByPriceOrderByTypeDesc(500d);
+		
 		return (List<Furniture>) furnitureRepository.findAll();
 	}
 
@@ -28,7 +30,7 @@ public class FurnitureServiceImpl implements FurnitureService {
 	}
 
 	@Override
-	public Furniture createFurniture(FurnitureImputBean furniture) {
+	public Furniture createFurniture(FurnitureInputBean furniture) {
 		Furniture f = new Furniture();
 		f.setPrice(furniture.getPrice());
 		f.setType(furniture.getType());

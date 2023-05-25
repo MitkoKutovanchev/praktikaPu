@@ -13,6 +13,7 @@ public class Furniture {
 
 	@Id
 	@Column(name = "FURNITURE_ID")
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	Long id;
 	
 	@Column
